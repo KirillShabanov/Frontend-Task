@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    width: 800px;
+    height: 600px;
+    background: #F2F2F2;
+}
+.formContainer {
+    position: relative;
+    left: 68px;
+    top: 60.48px;
+    width: 665px;
+    height: 480px; 
+    background: lawngreen;
+}
+.blueContainer {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 137.2px;
+    height: 480px;
+    float: left;
+    background: rgba(90, 97, 237, 1);
+}
+#signUp{
+    position: absolute;
+    height: 63px;
+    width: 162px;
+    left: 10.3%;
+    right: 65.34%;
+    top: calc(50% - 63px/2 + 82.5px);
+    
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+
+    color: #FFFFFF;
+
+    transform: rotate(-90deg);
+}
+.whiteContainer {
+    position: relative;
+    left: 137.2px;
+    top: 0px;
+    width: 527.8px;
+    height: 480px;
+    background: rgba(255, 255, 255, 1);
+}
